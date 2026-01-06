@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <div className="logo">
-        <img src="/myntra-logo.png" alt="Myntra" height="80" width="120"/>
+        <img src={`${import.meta.env.BASE_URL}images/myntra-logo.png`} alt="Myntra" height="80" width="120"/>
       </div>
 
       <div className="menu-style">
